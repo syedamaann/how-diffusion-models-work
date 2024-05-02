@@ -41,6 +41,9 @@ class ContextUnet(nn.Module):
 
 This model uses a U-Net architecture, which is effective for tasks where the output size is the same as the input size, such as image-to-image translation. It consists of a contracting path to capture context and a symmetric expanding path to enable precise localization.
 
+![image](https://github.com/syedamaann/how-diffusion-models-work/assets/74735966/e93eaa60-0623-44bb-8d89-6bdb4bbcdf82)
+
+
 #### Forward Pass
 
 The forward method of the model defines how data flows through the network:
@@ -95,6 +98,9 @@ HTML(animation_ddim.to_jshtml())
 ```
 
 This block generates and displays images as they are being denoised, providing an intuitive understanding of the model's performance.
+
+![image](https://github.com/syedamaann/how-diffusion-models-work/assets/74735966/d10f853d-47ae-4327-8243-be713027e94e)
+
 
 ### Conclusion
 
